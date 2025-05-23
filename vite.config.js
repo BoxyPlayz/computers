@@ -18,5 +18,6 @@ export default {
   preview: {
     port: 8080
   },
-  plugins: []
+  plugins: [
+  ]
 }

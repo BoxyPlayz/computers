@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Debian - Computer Stuff</title>
     <script type="module" src="../ts/main.ts"></script>
+    <meta name="description" content="Install Debian with a custom setup">
 </head>
 
 <body>
@@ -33,25 +34,30 @@
         <div class="tab-pane fade show active" id="nav-GNOME" role="tabpanel" aria-labelledby="nav-GNOME-tab">
             <h1>GNOME Desktop</h1>
             <ul class="list-group">
-                <li class="list-group-item">1. Enter root user by running <span class="bg-dark"><code class="text-info">su</code></span></li>
-                <li class="list-group-item">2. Update Packages with <span class="bg-dark"><code class="text-info">apt update</code></span></li>
+                <li class="list-group-item">1. Enable root user by running<code class="text-info">su -</code></li>
+                <li class="list-group-item">2. Update Packages with <code class="text-info">apt update</code></li>
                 <li class="list-group-item">3. Install the desktop environment with <br>
-                    <span class="bg-dark"><code class="text-info"> apt install gnome-shell gnome-control-center gnome-terminal </code></span></li>
+                    <code class="text-info"> apt install gnome-shell gnome-control-center gnome-terminal </code></li>
             </ul>
             <h2>Software Store</h2>
             <p>If you desire, you can install a graphical software manager with</p>
-            <span class="bg-dark"><code class="text-info">apt install gnome-software</code></span>
+            <code class="text-info">apt install gnome-software</code>
 
         </div>
         <div class="tab-pane fade" id="nav-KDE" role="tabpanel" aria-labelledby="nav-KDE-tab">
             <h1>KDE Desktop</h1>
-            <p>Coming Soon!</p>
+            <ul class="list-group">
+                <li class="list-group-item">1. Enable Root user with <code>su -</code></li>
+                <li class="list-group-item">2. Update packages with <code>apt update</code></li>
+                <li class="list-group-item">3. Install the desktop environment with <code>apt install kde-plasma-desktop</code></li>
+            </ul>
         </div>
         <div class="tab-pane fade" id="nav-mint" role="tabpanel" aria-labelledby="nav-mint-tab">
             <h1>Mint Desktop</h1>
             <p>Coming Soon!</p>
         </div>
     </div>
+    <ul class="list-group"><li class="list-group-item">You can install packages I recommend with: <code>apt install sudo nano</code></li></ul>
     <hr>
     <h1>Thats it! You have a working Debian computer!</h1>
 </body>

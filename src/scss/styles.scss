@@ -1,7 +1,23 @@
-@import "bootswatch/dist/lumen/variables";
+@import "bootswatch/dist/Lux/variables";
 
+code {
+    color: $info !important;
+    background-color: $gray-800 !important;
+}
 
 @import "bootstrap/scss/bootstrap";
 
 
-@import "bootswatch/dist/lumen/bootswatch";
+@import "bootswatch/dist/Lux/bootswatch";
+
+.nav-tabs {
+  position: relative;
+}
+
+.tab-indicator {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  background-color: $primary;
+  width: 50%;
+}
