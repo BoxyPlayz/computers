@@ -2,9 +2,10 @@
   "name": "compuder-stuffs",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --emptyOutDir",
     "preview": "vite preview"
   },
   "keywords": [],
@@ -14,10 +15,13 @@
   "devDependencies": {
     "@types/bootstrap": "^5.2.10",
     "@vitejs/plugin-legacy": "^6.1.1",
+    "postcss": "^8.5.3",
+    "postcss-css-variables": "^0.19.0",
+    "postcss-custom-properties": "^14.0.4",
+    "postcss-preset-env": "^10.1.6",
     "sass": "^1.87.0",
     "terser": "^5.39.2",
-    "vite": "^6.3.3",
-    "vite-plugin-sitemap": "^0.7.1"
+    "vite": "^6.3.3"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
